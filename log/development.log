@@ -1,0 +1,200 @@
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-11-17 08:37:35) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#testimonials (for 127.0.0.1 at 2010-11-17 08:37:49) [GET]
+Rendering template within layouts/application
+Rendering home/testimonials
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/testimonials]
+
+
+Processing HomeController#hb_loginv3_1 (for 127.0.0.1 at 2010-11-17 08:38:09) [GET]
+Rendering template within layouts/application
+Rendering home/hb_loginv3_1
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/hb_loginv3_1]
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-11-17 08:38:31) [GET]
+Rendering template within layouts/application
+Rendering home/services
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/services]
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-11-17 08:39:03) [GET]
+Rendering template within layouts/application
+Rendering home/services
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/services]
+
+
+Processing HomeController#privacy (for 127.0.0.1 at 2010-11-17 08:39:30) [GET]
+Rendering template within layouts/application
+Rendering home/privacy
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/privacy]
+
+
+Processing HomeController#links (for 127.0.0.1 at 2010-11-17 08:39:43) [GET]
+Rendering template within layouts/application
+Rendering home/links
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/links]
+
+
+Processing HomeController#join (for 127.0.0.1 at 2010-11-17 08:41:26) [GET]
+Rendering template within layouts/application
+Rendering home/join
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/join]
+
+
+Processing HomeController#patriotact (for 127.0.0.1 at 2010-11-17 08:42:50) [GET]
+Rendering template within layouts/application
+Rendering home/patriotact
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/patriotact]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-11-17 08:42:55) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-11-17 08:43:02) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#mortgages (for 127.0.0.1 at 2010-11-17 08:45:47) [GET]
+Rendering template within layouts/application
+Rendering home/mortgages
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/mortgages]
+
+
+Processing HomeController#mortgagerates (for 127.0.0.1 at 2010-11-17 08:46:03) [GET]
+Rendering template within layouts/application
+Rendering home/mortgagerates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/mortgagerates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-11-17 08:46:09) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-11-17 08:46:19) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-11-17 08:46:21) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:46:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:47:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:48:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:49:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:49:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:50:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:51:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:51:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-17 08:52:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]

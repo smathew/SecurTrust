@@ -1,0 +1,251 @@
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9785528-16");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+<style type="text/css">
+<!--
+.style1 {font-family: Arial, Helvetica, sans-serif}
+.style10 {	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #339933;
+}
+.style3 {font-family: Arial, Helvetica, sans-serif; font-size: 2; }
+#apDiv6 {
+	position:absolute;
+	width:765px;
+	height:256px;
+	z-index:6;
+	left: 106px;
+	top: 716px;
+}
+#apDiv7 {
+	position:absolute;
+	width:768px;
+	height:281px;
+	z-index:7;
+	left: 105px;
+	top: 430px;
+}
+-->
+</style>
+<style type="text/css">
+
+	#dropmenudiv{
+		position:absolute;
+		border:1px solid black;
+		border-bottom-width: 0;
+		font: normal 12px Arial, Helvetica, sans-serif;
+		line-height:18px;
+		z-index:100;
+		background : #339933;
+	}
+
+	#dropmenudiv a{
+		width: 100%;
+		display: block;
+		text-indent: 3px;
+		border-bottom: 1px solid black;
+		padding: 1px 0;
+		text-decoration: none;
+		font-weight: normal;
+		background-color: #006600;
+		color : white;
+	}
+
+	#dropmenudiv a:hover{ /*hover background color*/
+		background-color: #339933;
+		color : #FFFFFF
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* AnyLink Drop Down Menu-  Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+
+//Contents for menu 1 Our History
+var menu1=new Array()
+menu1[0]='<%= link_to "Our History", about_path %>'
+menu1[1]='<%= link_to "Member Testimonials", testimonials_path %>'
+
+//Contents for menu 2 Products & Services
+var menu2=new Array()
+menu2[0]='<%= link_to "Services", services_path %>'
+menu2[1]='<%= link_to "Links", links_path %>'
+menu2[2]='<%= link_to "How to Join", join_path %>'
+menu2[3]='<%= link_to "ATM Locator", "pdf/atmlocator.pdf" %>'
+menu2[4]='<%= link_to "Shared Saving", "pdf/rates.pdf" %>'
+menu2[5]='<%= link_to "IRA`s", "pdf/rates.pdf" %>'
+menu2[6]='<%= link_to "Share Certificates", "pdf/rates.pdf" %>'
+menu2[7]='<%= link_to "Share Draft", "pdf/rates.pdf" %>'
+menu2[8]='<%= link_to "USA Patriot Act Identification Disclosure", patriotact_path %>'
+
+//Contents for menu 3 Current Rates
+var menu3=new Array()
+menu3[0]='<%= link_to "Rates", rates_path %>'
+menu3[1]='<%= link_to "Credit Loan Application", "pdf/StCreditApp.pdf", :rel => "external" %>'
+menu3[2]='<%= link_to "Loan Calculator", rates_path(:anchor => "bottom") %>'
+
+
+//Contents for menu 4 Mortgages
+var menu4=new Array()
+menu4[0]='<%= link_to "Mortgage Information", mortgages_path %>'
+menu4[1]='<%= link_to "Mortgage Rates", mortgagerates_path %>'
+menu4[2]='<%= link_to "Mortgage Loan Application", "pdf/loanapp.pdf" %>'
+menu4[3]='<%= link_to "Loan Calculator", rates_path(:anchor => "bottom") %>'
+
+		
+var menuwidth='165px' //default menu width
+var menubgcolor='#339933'  //menu bgcolor
+var disappeardelay=250  //menu disappear speed onMouseout (in miliseconds)
+var hidemenu_onclick="yes" //hide menu when user clicks within menu?
+
+/////No further editting needed
+
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+if (ie4||ns6)
+document.write('<div id="dropmenudiv" style="visibility:hidden;width:'+menuwidth+';background-color:'+menubgcolor+'" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+
+function showhide(obj, e, visible, hidden, menuwidth){
+if (ie4||ns6)
+dropmenuobj.style.left=dropmenuobj.style.top="-500px"
+if (menuwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=menuwidth
+}
+if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
+obj.visibility=visible
+else if (e.type=="click")
+obj.visibility=hidden
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=0
+if (whichedge=="rightedge"){
+var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetWidth
+}
+else{
+var topedge=ie4 && !window.opera? iecompattest().scrollTop : window.pageYOffset
+var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure){ //move up?
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetHeight
+if ((dropmenuobj.y-topedge)<dropmenuobj.contentmeasure) //up no good either?
+edgeoffset=dropmenuobj.y+obj.offsetHeight-topedge
+}
+}
+return edgeoffset
+}
+
+function populatemenu(what){
+if (ie4||ns6)
+dropmenuobj.innerHTML=what.join("")
+}
+
+
+function dropdownmenu(obj, e, menucontents, menuwidth){
+if (window.event) event.cancelBubble=true
+else if (e.stopPropagation) e.stopPropagation()
+clearhidemenu()
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+populatemenu(menucontents)
+
+if (ie4||ns6){
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+"px"
+}
+
+return clickreturnvalue()
+}
+
+function clickreturnvalue(){
+if (ie4||ns6) return false
+else return true
+}
+
+function contains_ns6(a, b) {
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+
+function dynamichide(e){
+if (ie4&&!dropmenuobj.contains(e.toElement))
+delayhidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+delayhidemenu()
+}
+
+function hidemenu(e){
+if (typeof dropmenuobj!="undefined"){
+if (ie4||ns6)
+dropmenuobj.style.visibility="hidden"
+}
+}
+
+function delayhidemenu(){
+if (ie4||ns6)
+delayhide=setTimeout("hidemenu()",disappeardelay)
+}
+
+function clearhidemenu(){
+if (typeof delayhide!="undefined")
+clearTimeout(delayhide)
+}
+
+if (hidemenu_onclick=="yes")
+document.onclick=hidemenu
+
+</script>
+</head>
+
+<body>
+<center><%= image_tag "header_nav.gif", :width=>771, :height=>72, :alt=>"Start a New Relationship" %></center>
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td><a onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu1, '125px')" onMouseout="delayhidemenu()"><img src="images/nav_01.gif" id="history" name="history" width="70" height="28" alt="OUR HISTORY" border="0" onLoad=""></a></td>
+	<td><%= link_to image_tag("nav_02.gif", :width=>99, :height=>28, :alt=>"HOME BANKING", :border=>0), hb_loginv3_1_path %></td>
+    <td><a onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu2, '155px')" onMouseout="delayhidemenu()"><img src="images/nav_03.gif" id="products" name="products" width="143" height="28" alt="PRODUCTS & SERVICES" border="0" onLoad="" /></a></td>
+    <td><a onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu3, '125px')" onMouseout="delayhidemenu()"><img src="images/nav_04.gif" id="rates" name="rates" width="113" height="28" alt="RATES INFORMATION" border="0" onLoad="" /></a></td>
+    <td><a onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu4, '150px')" onMouseout="delayhidemenu()"><img src="images/nav_05.gif" id="mortgages" name="mortgages" width="97" height="28" alt="MORTGAGES" border="0" onLoad="" /></a></td>
+    <td><%= link_to image_tag("nav_06.gif", :width=>100, :height=>28, :alt=>"Whats New", :border=>0), whatsnew_path %></td>
+    <td><%= link_to image_tag("nav_07.gif", :width=>93, :height=>28, :alt=>"CONTACT US", :border=>0), contact_path %></td>
+    <td><%= link_to image_tag("nav_08.gif", :width=>56, :height=>28, :alt=>"HOME", :border=>0), root_path %></td>		
+  </tr>
+</table>

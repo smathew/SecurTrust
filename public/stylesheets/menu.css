@@ -1,0 +1,104 @@
+/* TOP LEVEL MENUS */
+ul#menu {
+	background-color: #393;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 771px;
+}
+
+ul#menu li {
+	display: inline-block;
+	background-color: transparent;
+	float: left;
+	margin: 0;
+	background-color: #393;
+}
+
+ul#menu li a {
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 11px;
+	font-family: verdana;
+	line-height: 22px;
+	display: block;
+	color: #ffffff;
+	width: auto;
+	position: relative;
+	padding: 0 none;
+	font-weight: bold;
+	padding: 0 10px 0 5px;
+	margin: 0;
+}
+
+ul#menu li a:hover {
+	background: #2e882d;
+}
+
+ul#menu li a.first {
+	border-left: 0 none;
+}
+
+/* 1st dropdown */
+ul#menu li ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	background-color: #393;
+	left: -999em;
+	z-index: 2;
+	border: solid white 1px;
+	color: white;
+	font-weight: bold;
+}
+ul#menu li ul li {
+	display: block;
+	border-bottom: 1px solid #ffffff;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+ul#menu li ul li a { /*1st dropdown*/
+	background-image: url(../images/navdot.jpg);
+	background-repeat: no-repeat;
+	border: 0 none;
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
+	height: 20px;
+	text-align: left;
+	width: auto;
+	font-size: 10px;
+	font-weight: bold;
+}
+ul#menu li ul a:hover {
+	color: #000000;
+	background-color: #99cca9;
+	background-image: url(../images/navdotover.jpg);
+	background-repeat: no-repeat;
+}
+
+
+/* THIRD LEVEL */
+ul#menu li ul li ul {
+    margin: -2em 0 0 15em;
+}
+
+ul#menu li:hover ul ul, ul#menu li:hover ul ul ul, ul#menu li.sfhover ul ul, ul#menu li.sfhover ul ul ul {
+    left: -999em;
+}
+ul#menu li:hover ul, ul#menu li li:hover ul, ul#menu li li li:hover ul, ul#menu li.sfhover ul, ul#menu li li.sfhover ul, ul#menu li li li.sfhover ul {
+    left: auto;
+}
+
+ul#menu li:hover ul ul, ul#menu li:hover ul ul ul, ul#menu li:hover ul ul ul ul, ul#menu li.sfhover ul ul, ul#menu li.sfhover ul ul ul, ul#menu li.sfhover ul ul ul ul {
+    left: -999em;
+}
+
+ul#menu li:hover ul, ul#menu li li:hover ul, ul#menu li li li:hover ul, ul#menu li li li li:hover ul, ul#menu li.sfhover ul, ul#menu li li.sfhover ul, ul#menu li li li.sfhover ul, ul#menu li li li li.sfhover ul {
+    left: auto;
+}
+
+

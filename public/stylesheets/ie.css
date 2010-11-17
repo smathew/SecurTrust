@@ -1,0 +1,15 @@
+.rshadow {
+	height: 1%;
+}
+
+.content {
+	height: 1%;
+}
+.clearfix {
+	height: 1%;     /* triggers hasLayout */
+}
+
+ul.plist li {
+	list-style: expression(/plist/.test(this.parentNode.className) ? 'none' : 'disc');
+	margin: expression(/plist/.test(this.parentNode.className) ? '15px 0px' : 'auto');
+}

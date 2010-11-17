@@ -1,0 +1,4 @@
+div#conference ul.controls li a {
+	border-left: expression(this.parentNode.previousSibling==null ? '0 none':'1px solid #333333');
+	padding-left: expression(this.parentNode.previousSibling==null ? '0px':'5px');
+}

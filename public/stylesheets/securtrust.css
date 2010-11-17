@@ -1,0 +1,271 @@
+body {
+	top: 0px;
+	left:0px;
+	margin: 10px 0 10px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*background-image: url(../images/background.jpg);*/
+	background-repeat: repeat;
+	background-attachment: fixed;
+	line-height: 22px;
+}
+
+#container {
+	width: 771px;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	border: 3px solid green;
+}
+
+#header {
+	width: 771px;
+	height: 72px;
+	text-decoration: none;
+	display: block;
+	background: #ffffff;
+}
+#header img {
+	border: 0 none;
+	margin: 0 none;
+	display: block;
+}
+
+#nav {
+	height: 22px;
+	width: 771px;
+	background: #393;
+	background-image:url(../images/nav.jpg);
+	background-repeat: no-repeat;
+	border-bottom: solid 1px white;
+}
+
+#main {
+	width:771px;
+	background: #ffffff;
+} 
+#mainholder {
+	width:747px;
+	padding:12px 10px 10px 15px;
+} 
+#main .mainleft {
+	width: 440px;
+	float: left;
+	padding-right: 10px;
+} 
+#main .mainright {
+	width: 300px;
+	float: left;
+	padding: 0 10px 10px 10px;
+	
+	margin-left: 10px;
+} 
+
+/*******************/
+/*     TABLES      */
+/*******************/
+table {
+	border-spacing: 0px;
+}
+
+table.default {
+	margin: 0 auto 0 auto; 
+	width: auto;
+	border: 0 none;
+}
+table.default td {
+	padding: 4px;
+}
+table.centered {
+	margin: 0 auto 0 auto;
+}
+
+
+table.loginbackground {
+	background-image: url(../images/hblogin_right.jpg);
+	margin: 0px;
+	padding: 0px;
+	height: 269px;
+	width: 346px;
+}
+
+table.rates {
+	margin: 0 auto 0 auto;
+	width: 650px;
+	border: 1px solid gray;
+}
+table.rates tr.gray {
+	background: #cecece;
+}
+
+table.calc {
+	background: #cdc8b6;
+	margin: 0 auto 0 auto;
+	border: 1px solid gray;
+}
+table.calc td, table.calc th {
+	border: 1px solid gray;
+	padding: 4px;
+}
+
+table.contact {
+	width: 600px;
+	margin: 0 auto 0 auto;
+	border: solid 1px gray;
+}
+table.contact th {
+	background: #7db8f5;
+	border: inset 1px gray;
+	padding: 4px;
+}
+table.contact th.nopad {
+	padding: 1px;
+	height: 220px;
+}
+table.contact td {
+	border: inset 1px gray;
+	padding: 4px;
+}
+
+/*****************/
+/*     TEXT     */
+/*****************/
+
+h1 {
+	font-size: 18px;
+	color: #1363b8;
+	text-align: left;
+} 
+h2 {
+	font-size: 16px;
+	color: #060;
+} 
+h3 {
+	display: inline;
+	color: #5daafa;
+	font-size: 14px;
+} 
+
+
+
+
+
+.spaced {
+	line-height: 24px;
+}
+
+
+
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #1363b8;
+}
+
+
+
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+.smallprint {
+	color: #333;
+	font-size: 11px;
+}
+
+q {
+	font-style: italic;
+}
+
+
+/*********END TEXT ********/
+
+
+
+
+
+
+
+/*****************/
+/*    FIXINS     */
+/*****************/
+.clearfix {
+	height: 1%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.centertext {
+	text-align: center;
+}
+
+
+img {
+	border: 0 none;
+	color: #2131A5;
+}
+
+fieldset {
+	border: 0 none;
+	padding: 0;
+}
+
+
+.fright {
+	float: right;
+	padding-left: 10px;
+}
+.fleft {
+	float: left;
+	padding-right: 10px;
+}
+.fleftnopad {
+	float: left;
+}
+/*********END FIXINS***********/
+
+#footer {
+	text-align: center;
+	width:771px;
+	padding: 0;
+	background: #393;
+	font-weight: bold;
+	color: #ffffff;
+	border-top: 3px solid green;
+	margin: 0 auto 0 auto;
+}
+
+
+
+#footer table{
+	width: 750px;
+	margin: 0 auto 0 auto;
+}
+#footer table td{
+	padding: 5px;
+	width: 25%
+}
+
+#footer a{
+	padding: 0 none;
+	margin: 0 auto 0 auto;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
